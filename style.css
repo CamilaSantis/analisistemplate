@@ -1,9 +1,14 @@
+/* La definición del body permite eliminar margen por defecto del navegador
+ y que  no haya espacios innecesarios*/
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0; 
     padding: 0;
 }
 
+/* La definición de container determina el ancho optimo para contenido legible
+en distintas resoluciones, se centra el contenedor de manera uniforme 
+y se añade espacio vertical para mejorar la distribución*/
 .container {
     width: 80%;
     margin: 0 auto;
